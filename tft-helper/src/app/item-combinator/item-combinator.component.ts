@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemCombinatorComponent implements OnInit {
 
+  baseItems = [
+    "bf",
+    "chain",
+    "negatron",
+    "nlr",
+    "recurve",
+    "tear",
+    "spatula",
+  ]
+
   constructor() { }
 
   ngOnInit() {

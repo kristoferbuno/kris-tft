@@ -24,3 +24,12 @@ import { ItemCombinatorComponent } from './item-combinator/item-combinator.compo
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export class Item  {
+  name = String;
+  constructor(shortname){
+    this.name = shortname;
+  }
+
+
+}
