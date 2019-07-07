@@ -1,0 +1,67 @@
+{
+  "bf": {
+    "bf": "ie",
+    "chain": "ga",
+    "negatron": "bt",
+    "nlr":"guinsoos",
+    "recurve":"sotd",
+    "tear":"shojin",
+    "spatula":"youmuus"
+  },
+
+  "chain": {
+    "bf": "ie",
+    "chain": "thorn",
+    "negatron": "disarm",
+    "nlr":"locket",
+    "recurve":"pd",
+    "tear":"shojin",
+    "spatula":"youmuus"
+  },
+
+  "negatron": {
+    "bf": "bt",
+    "chain": "disarm",
+    "negatron": "dragon",
+    "nlr":"ionic",
+    "recurve":"shrink",
+    "tear":"silence",
+    "spatula":"ruunans"
+  },
+  "nlr": {
+    "bf": "gunblade",
+    "chain": "locket",
+    "negatron": "ionic",
+    "nlr":"deathcap",
+    "recurve":"guinsoos",
+    "tear":"ludens",
+    "spatula":"yuumi"
+  },
+  "recurve": {
+    "bf": "sotd",
+    "chain": "phantom",
+    "negatron": "recurve",
+    "nlr":"guinsoos",
+    "recurve":"rfc",
+    "tear":"ss",
+    "spatula":"botrk"
+  },
+  "tear": {
+    "bf": "shojin",
+    "chain": "fh",
+    "negatron": "silence",
+    "nlr":"ludens",
+    "recurve":"ss",
+    "tear":"seraphs",
+    "spatula":"demon"
+  },
+  "spatula": {
+    "bf": "youmuus",
+    "chain": "ga",
+    "negatron": "ruunans",
+    "nlr":"yuumi",
+    "recurve":"botrk",
+    "tear":"demon",
+    "spatula":"leviathan"
+  }
+}
