@@ -1,3 +1,23 @@
-.big-head {
-    color: #BBBB00
+.nav-parent {
+    background-color: #002222;
+    margin:0px;
+    padding:0px;
+}
+
+.nav-parent a {
+    float:left;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: 3em;
+    text-decoration: none;
+    font-size: 40px;
+    transition: .2s;
+    margin:0;
+}
+
+.nav-parent a:hover {
+    vertical-align: -webkit-baseline-middle;
+    background-color: #004444;
 }
