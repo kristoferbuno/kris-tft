@@ -1,6 +1,10 @@
 button {
   color:white;
-  display:flex
+  display:inline
+}
+
+p {
+  display:inline
 }
 
 div {

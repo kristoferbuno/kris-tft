@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ItemViewService } from './item-view.service';
 
 @Component({
   selector: 'app-item-view',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item-view.component.css']
 })
 export class ItemViewComponent implements OnInit {
+  @Input() itemCall;
+  itemPath;
 
-  constructor() { }
+  constructor(
+    private itemViewService: ItemViewService
+  ) { }
 
   ngOnInit() {
   }

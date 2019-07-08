@@ -10,6 +10,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ItemCombinatorComponent } from './item-combinator/item-combinator.component';
 import { ItemViewComponent } from './item-view/item-view.component';
 
+import { CardModule, Card } from 'primeng/card';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { ItemViewComponent } from './item-view/item-view.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
