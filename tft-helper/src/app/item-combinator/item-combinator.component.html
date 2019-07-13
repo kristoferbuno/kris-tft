@@ -7,16 +7,20 @@
   </button>
 </p-panel>
 <br>
-<div>
-  Selected items:
+<p-panel>
+  <p-header class="ui-fieldset-all">
+    Selected items:
+  </p-header>
   <p *ngFor="let item of selectedItems$">
     <app-item-view [itemCall]="item"></app-item-view>
   </p>
-</div>
+</p-panel>
 <br>
-<div *ngIf="selectedItems$.length > 1">
-  Possible items:
+<p-panel *ngIf="selectedItems$.length > 1">
+  <p-header class="ui-fieldset-all">
+    Possible items:
+  </p-header>
   <p *ngFor="let item of findAllPairs(selectedItems$)">
     <app-item-view [itemCall]="item"></app-item-view>
   </p>
-</div>
+</p-panel>
