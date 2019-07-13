@@ -15,6 +15,7 @@ export class ItemCombinatorComponent implements OnInit {
     "recurve",
     "tear",
     "spatula",
+    "belt"
   ]
 
   selectedItems$ = [];

@@ -17,6 +17,6 @@
 <div *ngIf="selectedItems$.length > 1">
   Possible items:
   <p *ngFor="let item of findAllPairs(selectedItems$)">
-    {{item}}
+    <app-item-view [itemCall]="item"></app-item-view>
   </p>
 </div>

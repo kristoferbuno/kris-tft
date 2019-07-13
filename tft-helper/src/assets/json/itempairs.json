@@ -6,7 +6,8 @@
     "nlr":"gunblade",
     "recurve":"sotd",
     "tear":"shojin",
-    "spatula":"youmuus"
+    "spatula":"youmuus",
+    "belt":"zekes"
   },
 
   "chain": {
@@ -16,7 +17,8 @@
     "nlr":"locket",
     "recurve":"pd",
     "tear":"shojin",
-    "spatula":"youmuus"
+    "spatula":"knight",
+    "belt":"redbuff"
   },
 
   "negatron": {
@@ -26,7 +28,8 @@
     "nlr":"ionic",
     "recurve":"shrink",
     "tear":"silence",
-    "spatula":"ruunans"
+    "spatula":"ruunans",
+    "belt":"zephyr"
   },
   "nlr": {
     "bf": "gunblade",
@@ -35,16 +38,18 @@
     "nlr":"deathcap",
     "recurve":"guinsoos",
     "tear":"ludens",
-    "spatula":"yuumi"
+    "spatula":"yuumi",
+    "belt":"morellos"
   },
   "recurve": {
     "bf": "sotd",
-    "chain": "phantom",
-    "negatron": "recurve",
+    "chain": "pd",
+    "negatron": "shrink",
     "nlr":"guinsoos",
     "recurve":"rfc",
     "tear":"ss",
-    "spatula":"botrk"
+    "spatula":"botrk",
+    "belt":"titanic"
   },
   "tear": {
     "bf": "shojin",
@@ -53,15 +58,27 @@
     "nlr":"ludens",
     "recurve":"ss",
     "tear":"seraphs",
-    "spatula":"demon"
+    "spatula":"demon",
+    "belt":"redemption"
   },
   "spatula": {
     "bf": "youmuus",
-    "chain": "ga",
+    "chain": "knight",
     "negatron": "ruunans",
     "nlr":"yuumi",
     "recurve":"botrk",
     "tear":"demon",
-    "spatula":"leviathan"
+    "spatula":"fon",
+    "belt":"glacial"
+  },
+  "belt": {
+    "bf": "zekes",
+    "chain": "redbuff",
+    "negatron": "zephyr",
+    "nlr":"morellos",
+    "recurve":"titanic",
+    "tear":"redemption",
+    "spatula":"glacial",
+    "belt":"warmogs"
   }
 }

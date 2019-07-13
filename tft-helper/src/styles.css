@@ -26,10 +26,6 @@ body {
   background: transparent;
 }
 
-p-header {
-  background-color: #003333;
-  color: white;
-}
 
 router-outlet{
   margin: 0 3em
