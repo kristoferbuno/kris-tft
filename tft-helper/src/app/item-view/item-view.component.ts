@@ -7,7 +7,8 @@ import { ItemViewService } from './item-view.service';
   styleUrls: ['./item-view.component.css']
 })
 export class ItemViewComponent implements OnInit {
-  @Input() itemCall;
+  @Input() itemCall : String;
+  @Input() advancedView : boolean;
   itemPath;
 
   constructor(

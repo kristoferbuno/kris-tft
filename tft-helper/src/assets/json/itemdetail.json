@@ -1,0 +1,227 @@
+{
+    "bf": {
+        "name": "B.F. Sword",
+        "description": ""
+    },
+
+    "chain": {
+        "name": "Chainmail",
+        "description": ""
+    },
+    
+    "negatron": {
+        "name": "Negatron Cloak",
+        "description": ""
+    },
+    
+    "nlr": {
+        "name": "Needlessly Large Rod",
+        "description": ""
+    },
+
+    "recurve": {
+        "name": "Recurve Bow",
+        "description": ""
+    },
+
+    "tear": {
+        "name": "Tear of the Goddess",
+        "description": ""
+    },
+    
+    "spatula": {
+        "name": "Golden Spatula",
+        "description": ""
+    },
+
+    "belt": {
+        "name": "Giant's Belt",
+        "description": ""
+    },
+    
+    "ie": {
+        "name": "Infinity Edge",
+        "description": ""
+    },
+    
+    "ga": {
+        "name": "Guardian's Angel",
+        "description": ""
+    },
+
+    "bt": {
+        "name": "Bloodthirster",
+        "description": "Auto-attacks heal for 50% of damage dealt."
+    },
+    
+    "gunblade": {
+        "name": "Hextech Gunblade",
+        "description": "User heals for 25% of all damage dealt."
+    },
+
+    "shojin": {
+        "name": "Spear of Shojin",
+        "description": "After casting, user gains 15% of their max mana per attack."
+    },
+    
+    "sotd": {
+        "name": "Sword of the Divine",
+        "description": "Every second, the user has a 5% chance to earn 100% crit chance for the rest of the round."
+    },
+    
+    "youmuus": {
+        "name": "Youmuu's Ghostblade",
+        "description": "Adds the 'Assassin' class to the user."
+    },
+    
+    "zekes": {
+        "name": "Zeke's Herald",
+        "description": "Allies adjacent to the user gain +10% attack speed."
+    },
+    
+    "deathcap": {
+        "name": "Rabadon's Deathcap",
+        "description": "The user's ability damage is increased by 50%."
+    },
+    
+    "guinsoos": {
+        "name": "Guinsoo's Rageblade",
+        "description": "Attacks give 3% attack speed to the user. Stacks infinitely."
+    },
+
+    "ludens": {
+        "name": "Luden's Echo",
+        "description": "User deals 200 magic splash damage on ability hit."
+    },
+    
+    "locket": {
+        "name": "Locket of the Iron Solari",
+        "description": "On combat start, all adjacent allies to the user gain 200 shield."
+    },
+    
+    "ionic": {
+        "name": "Ionic Spark",
+        "description": "When an enemy casts a spell, they take 200 damage."
+    },
+
+    
+    "morellos": {
+        "name": "Morellonomicon",
+        "description": "Spells burn 2.5% of impacted enemies per second, as well as cutting healing."
+    },
+    
+    "yuumi": {
+        "name": "Yuumi",
+        "description": "User gains the 'Sorcerer' class."
+    },
+    
+    "rfc": {
+        "name": "Rapidfire Cannon",
+        "description": "User's attacks cannot be dodged. Attack range is doubled."
+    },
+    
+    "ss": {
+        "name": "Statikk Shiv",
+        "description": "On every third attack, user deals 100 splash magic damage."
+    },
+    
+    "pd": {
+        "name": "Phantom Dancer",
+        "description": "User dodges all critical strikes (except from Rapidfire Cannon users)."
+    },
+
+    
+    "shrink": {
+        "name": "Cursed Blade",
+        "description": "User's attacks have a small chance to reduce enemy's star level by 1."
+    },
+
+    
+    "titanic": {
+        "name": "Titanic Hydra",
+        "description": "User's attacks deal 10% of the user's max HP as splash damage in a cone behind the enemy."
+    },
+    
+    "botrk": {
+        "name": "Blade of the Ruined King",
+        "description": "User gains the 'Blademaster' class."
+    },
+    
+    "seraphs": {
+        "name": "Seraph's Embrace",
+        "description": "User regains 20 mana each time they cast a spell."
+    },
+    
+    "fh": {
+        "name": "Frozen Heart",
+        "description": "Enemies adjacent to the user lose 20% attack speed."
+    },
+    
+    "silence": {
+        "name": "Hush",
+        "description": "User's attacks have a high chance to silence."
+    },
+
+    
+    "redemption": {
+        "name": "Redemption",
+        "description": "On death, spawn a large circle that after a delay, heals all allies for 1000 HP."
+    },
+    
+    "demon": {
+        "name": "Darkin",
+        "description": "User gains the 'Demon' class."
+    },
+    
+    "thorn": {
+        "name": "Thornmail",
+        "description": "User reflects 35% of damage taken from basic attacks."
+    },
+    
+    "disarm": {
+        "name": "Sword Breaker",
+        "description": "User's basic attacks have a chance to disarm."
+    },
+
+    
+    "redbuff": {
+        "name": "Red Buff",
+        "description": "User's basic attacks burn enemies for 2.5% of their max HP while disabling healing."
+    },
+    
+    "knight": {
+        "name": "Knight's Vow",
+        "description": "User gains the 'Knight' class."
+    },
+    
+    "dragon": {
+        "name": "Dragon's Claw",
+        "description": "User takes 83% reduced magic damage."
+    },
+    
+    "zephyr": {
+        "name": "Zephyr",
+        "description": "At the beginning of a round, banish an enemy unit for 5 seconds."
+    },
+    
+    "runaans": {
+        "name": "Runaan's Hurricane",
+        "description": "User's basic attacks fire 2 extra bolts to other enemies dealing 50% damage."
+    },
+
+    
+    "warmogs": {
+        "name": "Warmog's Armor",
+        "description": "User regenerates 3% of their max health per second."
+    },
+    
+    "glacial": {
+        "name": "Frozen Mallet",
+        "description": "User gains the 'Glacial' class."
+    },
+    
+    "fon": {
+        "name": "Force of Nature",
+        "description": "As long as item is equipped on anyone (field or bench), gain +1 team size."
+    }
+}
