@@ -4,14 +4,19 @@
     padding:0px;
 }
 
+.nav-parent :nth-child() {
+    height:9em
+}
+
 .nav-parent a {
     float:left;
     color: #ffffff;
-    width: 50%;
+    width: 40%;
     height: 2em;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     transition: .2s;
+    border-bottom: 1em white;
     margin:0;
     display: flex;
     justify-content: center;
@@ -21,6 +26,22 @@
 }
 
 .nav-parent a:hover {
-    vertical-align: -webkit-baseline-middle;
-    background-color: #004444;
+    border-bottom-width: 4px;
+    border-style: solid;
+}
+
+.nav-parent p {
+    float:left;
+    color: #ffffff;
+    width: 20%;
+    height: 2em;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .2s;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #003333
 }

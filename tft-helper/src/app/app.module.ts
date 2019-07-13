@@ -37,11 +37,3 @@ import { PanelModule } from 'primeng/panel';
 })
 export class AppModule { }
 
-export class Item  {
-  name = String;
-  constructor(shortname){
-    this.name = shortname;
-  }
-
-
-}

@@ -6,3 +6,8 @@ button {
 p {
   display:inline
 }
+
+.bold-header {
+  font-family: "Overpass", Overpass, sans-serif;
+  font-weight: 900
+}

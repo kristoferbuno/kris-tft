@@ -8,7 +8,7 @@ body {
 }
 
 .header-font {
-    font-family: "Varela Round", Varela, sans-serif;
+    font-family: "Overpass", Overpass, sans-serif;
 }
 
 .fill-parent {
@@ -28,5 +28,5 @@ body {
 
 
 router-outlet{
-  margin: 0 3em
+  margin: 3em
 }
