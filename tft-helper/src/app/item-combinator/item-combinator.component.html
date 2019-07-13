@@ -1,8 +1,11 @@
-<p-card header="Base items:">
+<p-panel>
+  <p-header class="ui-fieldset-all">
+    Base items:
+  </p-header>
   <button *ngFor="let item of baseItems" (click)="addItem(item)">
       <app-item-view [itemCall]="item"></app-item-view>
   </button>
-</p-card>
+</p-panel>
 <br>
 <div>
   Selected items:

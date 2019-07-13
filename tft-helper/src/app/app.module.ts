@@ -11,6 +11,9 @@ import { ItemCombinatorComponent } from './item-combinator/item-combinator.compo
 import { ItemViewComponent } from './item-view/item-view.component';
 
 import { CardModule, Card } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
+import { PanelModule } from 'primeng/panel';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { CardModule, Card } from 'primeng/card';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    CardModule
+    CardModule,
+    FieldsetModule,
+    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]
