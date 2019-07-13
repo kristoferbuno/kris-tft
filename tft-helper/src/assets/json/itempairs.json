@@ -11,12 +11,12 @@
   },
 
   "chain": {
-    "bf": "ie",
+    "bf": "ga",
     "chain": "thorn",
     "negatron": "disarm",
     "nlr":"locket",
     "recurve":"pd",
-    "tear":"shojin",
+    "tear":"fh",
     "spatula":"knight",
     "belt":"redbuff"
   },
