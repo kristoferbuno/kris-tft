@@ -11,3 +11,14 @@ p {
   font-family: "Overpass", Overpass, sans-serif;
   font-weight: 900
 }
+
+.hover-button {
+  transition: transform .2s;
+  position: relative;
+  margin: 7px
+}
+
+.hover-button:hover {
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
+}

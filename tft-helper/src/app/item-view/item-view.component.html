@@ -1,1 +1,5 @@
-<img src='/../assets/items/{{this.itemCall}}.png' width="64" height="64">
+<img *ngIf="!advancedView" src='/../assets/items/{{this.itemCall}}.png' width="64" height="64">
+<div *ngIf="advancedView" class="advpad">
+    <img *ngIf="advancedView" src='/../assets/items/{{this.itemCall}}.png' width="64" height="64">
+    
+</div>
