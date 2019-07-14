@@ -4,14 +4,10 @@
     padding:0px;
 }
 
-.nav-parent :nth-child() {
-    height:9em
-}
-
 .nav-parent a {
     float:left;
     color: #ffffff;
-    width: 40%;
+    width: 45%;
     height: 2em;
     text-decoration: none;
     font-size: 30px;
@@ -30,10 +26,10 @@
     border-style: solid;
 }
 
-.nav-parent p {
+.nav-parent div {
     float:left;
     color: #ffffff;
-    width: 20%;
+    width: 5%;
     height: 2em;
     text-decoration: none;
     font-size: 30px;
@@ -43,5 +39,9 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: #003333
+    background-color: #00
+}
+
+img {
+    display: inline;
 }
