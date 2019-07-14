@@ -19,6 +19,7 @@ export class ItemCombinatorComponent implements OnInit {
   ]
 
   selectedItems$ = [];
+  itemsAdded = 0;
   itemPairings;
 
   constructor(
@@ -30,14 +31,20 @@ export class ItemCombinatorComponent implements OnInit {
       this.itemPairings = data;
     });  }
 
-  addItem(e){
-    this.selectedItems$.push(e);
+  addItem(item){
+      this.selectedItems$.push(
+        new SelectedItem(this.itemsAdded, item)
+      );
+      this.itemsAdded++;
   }
 
   pairItem(item1, item2){
-    return this.itemPairings[item1][item2];
+    return this.itemPairings[item1.name][item2.name];
   }
 
+  /**
+   * matches all items in this.SelectedItems$ to each other and finds combinations
+   */
   findAllPairs(){
     let combinations = [];
     for (let item = 0; item < this.selectedItems$.length-1; item++)
@@ -65,4 +72,23 @@ export class ItemCombinatorComponent implements OnInit {
     return false;
   }
 
+  removeItem(event){
+    let eventID = event.id;
+    for (let i = 0; i < this.selectedItems$.length; i++){
+      if (this.selectedItems$[i].id == eventID)
+      {
+        this.selectedItems$.splice(i, 1);
+      }
+    }
+  }
+
+}
+
+class SelectedItem {
+  id : number;
+  name : String;
+  constructor (id, item){
+    this.id = id;
+    this.name = item;
+  }
 }
