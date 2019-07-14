@@ -1,0 +1,16 @@
+.center-container {
+    padding-top: 2em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center-container div {
+    float: left;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center
+}
