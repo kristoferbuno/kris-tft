@@ -13,6 +13,7 @@ import { ItemViewComponent } from './item-view/item-view.component';
 import { CardModule, Card } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
+import { SummonerViewComponent } from './summoner-view/summoner-view.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PanelModule } from 'primeng/panel';
     HeaderComponent,
     HomepageComponent,
     ItemCombinatorComponent,
-    ItemViewComponent
+    ItemViewComponent,
+    SummonerViewComponent
   ],
   imports: [
     BrowserModule,
