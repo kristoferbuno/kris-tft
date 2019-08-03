@@ -12,10 +12,14 @@ export class SummonerViewService {
   constructor(private http: HttpClient) { }
 
   getSummonerInfo(summoner: string){
-    let requestName = this.massageName(summoner);
-    let params = new HttpParams().set('summonerName', requestName);
+    const requestName = this.massageName(summoner);
+    const params = new HttpParams().set('summonerName', requestName);
+    const url: string = 'localhost:4200';
 
-        this.http.get()
+    this.http.post<any>(url, params)
+      .subscribe(data => {
+
+      })
 
   }
 

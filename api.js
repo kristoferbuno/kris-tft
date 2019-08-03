@@ -7,8 +7,8 @@ app.listen(5050, function(){
     console.log('api.js is running on port '+5050)
 })
 
-app.get('/summonersearch', function(req, apiRES) {
-    console.log('calling route /summonersearch')
+app.post('/user', function(req, apiRES) {
+    console.log('calling route /user')
 
     let summonerName;
     summonerName = '';
