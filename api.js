@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var request = require('request');
-let riotApiKey = 'RGAPI-5d839c48-ea55-4b8b-bcd1-545121f336e5';
+let riotApiKey = 'RGAPI-91b7bb54-4082-4e6c-98a0-99f9775af99a';
 
 app.listen(5050, function(){
     console.log('api.js is running on port '+5050)
