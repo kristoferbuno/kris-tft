@@ -1,11 +1,14 @@
 var express = require('express')
 var app = express()
+var cors = require('cors');
 var request = require('request');
-let riotApiKey = 'RGAPI-91b7bb54-4082-4e6c-98a0-99f9775af99a';
+let riotApiKey = 'RGAPI-b5461d5b-0dac-47b5-80fa-f09d4d5b8eaa';
 
 app.listen(5050, function(){
     console.log('api.js is running on port '+5050)
 })
+
+app.use(cors({origin: 'http://localhost:4200'}));
 
 app.post('/user', function(req, apiRES) {
     console.log('calling route /user')
