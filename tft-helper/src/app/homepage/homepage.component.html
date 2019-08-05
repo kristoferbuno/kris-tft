@@ -9,5 +9,11 @@
         <small class='header-font' style="font-size: 18px">
                 a teamfight tactics informational site
         </small>
+        <br>
+        <br>
+        <div style="display:block" class="ui-inputgroup">
+            <input #search (keyup.enter)="searchPage(search.value)" type="text" size="40" pInputText/>
+            <i class="pi pi-search"></i>
+        </div>
     </div>
 </div>

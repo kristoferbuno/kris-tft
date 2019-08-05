@@ -33,7 +33,8 @@ import { SummonerViewComponent } from './summoner-view/summoner-view.component';
     HttpClientModule,
     CardModule,
     FieldsetModule,
-    PanelModule
+    PanelModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
