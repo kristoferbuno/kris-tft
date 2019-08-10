@@ -1,4 +1,7 @@
-<div class="item html">
+<div class="p-grid">
+  <div class="p-col">{{summoner$.name}}</div>
+  <div class="p-col">{{summoner$.tier}} {{summoner$.rank}}</div>
+  <div class="p-col"><div class="item html">
     <h2 class="header-font">
         {{getWinRate()}}%
     </h2>
@@ -9,4 +12,5 @@
       [ngStyle]="{'stroke-dashoffset': circleNumber()}"/>
      </g>
     </svg>
+</div></div>
 </div>
