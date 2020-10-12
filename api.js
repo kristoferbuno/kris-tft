@@ -2,7 +2,8 @@ var express = require('express')
 var app = express()
 var cors = require('cors');
 var request = require('request');
-let riotApiKey = 'RGAPI-613ea209-7e14-4c70-8708-7da4db2f2cd8';
+let riotApiKey = '---';
+//this api key should never be publicized
 
 app.listen(5050, function(){
     console.log('api.js is running on port '+5050)
